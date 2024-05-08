@@ -16,7 +16,7 @@ export default async function MealsPage() {
           Delicious Meals, created{""}
           <span className={classes.highlight}>by you</span>
         </h1>
-        <p>
+        <p className={classes.title}>
           Choose your favorite recipe and cook it yourself. It is easy and fun
         </p>
         <p className={classes.creator}>
